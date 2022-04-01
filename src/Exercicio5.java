@@ -10,6 +10,17 @@ public class Exercicio5 {
 
         String[] musicas = new String[3];
 
-        
+        for(int i = 0; i < 3; i++){
+            System.out.println("Escreva o nome de uma música de "+banda);
+            musicas[i] = leitor.nextLine();
+        }
+
+        System.out.println("-------------");
+        System.out.println(banda);
+        System.out.println("-------------");
+
+        for(int i = 0; i < 3; i++){
+            System.out.println(musicas[i]);
+        }
     }
 }
