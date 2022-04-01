@@ -21,7 +21,8 @@ public class Exercicio4 {
         System.out.println("-------------------------------");
         
         for(int i = 0; i < listaCompras.length; i++){
-            System.out.println(listaCompras[i]);
+            int Lista = i + 1;
+            System.out.println(Lista+": "+listaCompras[i]);
         }
 
     }
